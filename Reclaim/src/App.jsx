@@ -9,9 +9,9 @@ function App() {
 
 
   const generateVerificationRequest = async () => {
-    const APP_ID = "0xcE9D40F30A3239B2002714Eb565AA693160ebdbd";
+    const APP_ID = "";
     const reclaimClient = new Reclaim.ProofRequest(APP_ID);
-    const APP_SECRET ="0x51eb7ba2fe758a69ac14c2b1f44e04b6b10af304ad6474ccf93b1e719ceea228"  // your app secret key.
+    const APP_SECRET =""  // your app secret key.
     
     
     const providerIds = [
